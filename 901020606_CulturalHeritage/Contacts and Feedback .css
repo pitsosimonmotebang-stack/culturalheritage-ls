@@ -1,0 +1,92 @@
+
+    body {
+      background-image: url(' Images/lesotho3.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    form {
+      width: 350px;
+      margin: 40px auto;
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.9);
+      font-size: 1rem;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    /* Focus effect on inputs */
+    form input[type="text"]:focus,
+    form input[type="email"]:focus,
+    form textarea:focus {
+      outline: none;
+      box-shadow: 0 0 8px #66ccff;
+      transform: scale(1.02);
+    }
+
+    form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3399ff;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #267acc;
+      transform: scale(1.05);
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 30px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    .social-links {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .social-links a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background: rgba(0,0,0,0.5);
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 10px;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: rgba(255,255,255,0.3);
+      transform: scale(1.1);
+    }

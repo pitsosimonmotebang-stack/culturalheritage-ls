@@ -1,0 +1,65 @@
+  
+    body {
+      background-image: url('Images/pitsos1.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2rem;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    video {
+      display: block;
+      margin: 20px auto;
+      border: 3px solid white;
+      border-radius: 10px;
+    }
+
+    .dance-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    article {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    article p {
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    figure img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    figcaption {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  

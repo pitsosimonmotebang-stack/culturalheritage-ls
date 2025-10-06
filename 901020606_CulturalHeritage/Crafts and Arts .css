@@ -1,0 +1,90 @@
+
+    body {
+      background-image: url('Images/lesotho.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    th {
+      padding: 15px;
+      font-size: 1.3rem;
+      background-color: rgba(255, 255, 255, 0.2);
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 2px solid rgba(255,255,255,0.3);
+    }
+
+    td {
+      padding: 20px;
+      font-size: 1rem;
+      line-height: 1.6;
+      vertical-align: top;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+
+    td img {
+      display: block;
+      width: 250px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: auto;
+      border: 3px solid rgba(255,255,255,0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    td img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: rgba(0,0,0,0.6);
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 20px auto;
+      text-align: center;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    a:hover {
+      background-color: rgba(255,255,255,0.3);
+      transform: scale(1.05);
+    }
+
+  
+    .link-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+  

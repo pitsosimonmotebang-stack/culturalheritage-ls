@@ -9,6 +9,35 @@
       color: white;
     }
 
+nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0;
+    }
+    nav ul li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 16px 22px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: white;
+      color: #333;
+      border-radius: 4px;
+      transform: scale(1.05);
+    }
+
     form {
       width: 350px;
       margin: 40px auto;
@@ -89,4 +118,5 @@
     .social-links a:hover {
       background: rgba(255,255,255,0.3);
       transform: scale(1.1);
+
     }
